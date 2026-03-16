@@ -217,21 +217,15 @@ button {
 
   #navLinks {
     display: none;
-<<<<<<< HEAD
-=======
     text-align: center;
->>>>>>> a3d3a04fc2eed3765cbd79a12fef8d638d75f294
   }
 
   #navLinks li a {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
     margin-bottom: 2rem;
-=======
     gap: 3rem;
     flex-direction: column;
->>>>>>> a3d3a04fc2eed3765cbd79a12fef8d638d75f294
     color: rgb(133, 25, 25);
   }
 
