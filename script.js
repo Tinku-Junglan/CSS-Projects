@@ -7,10 +7,6 @@ menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// $(document).ready(function () {
-//   $("#navLinks").hide();
-// });
-
 $(document).ready(function () {
   $("#menuToggle").click(function () {
     $("#navLinks").toggle();
