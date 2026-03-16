@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bitcount+Grid+Double+Ink:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+  text-shadow:
+    5px 5px 5px red,
+    -5px -5px 5px yellow;
+  text-decoration-line: underline;
+  text-underline-offset: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  color: black;
+  text-shadow: 1rem 1rem 2rem white;
+}
+
+button {
+  background-color: rgb(110, 110, 226);
+  padding: 1rem;
+  border: 1px solid wheat;
+  border-radius: 1rem;
+}
+
+.div {
+  border: 2px solid rgb(128, 224, 115);
+  background-color: rgba(2, 2, 2, 0.6);
+  padding: 2rem;
+  border-radius: 1rem;
+  line-height: 2rem;
+  box-shadow: 3px 3px 2rem rgb(99, 150, 218);
+}
+
+.div p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  background-color: rgb(3, 3, 3);
+  color: rgb(216, 40, 40);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navLinks li a {
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+#navLinks {
+  display: flex;
+  gap: 3rem;
+}
+
+#navLinks li {
+  list-style: none;
+}
+
+#navLinks a:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+#log-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  height: 1rem;
+  place-items: center;
+  text-align: center;
+  color: tomato;
+  background-color: white;
+  border: 1px;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+#log-button:hover {
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  box-shadow:
+    3px 3px 8px white,
+    -3px -3px 8px white;
+}
+
+#log-button:active {
+  background-color: rgb(131, 128, 128);
+  color: white;
+  cursor: pointer;
+  box-shadow:
+    3px 3px 8px white,
+    -3px -3px 8px rgb(218, 82, 82);
+}
+
+.section1 {
+  display: grid;
+  text-align: center;
+  gap: 3rem;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.section2 {
+  display: grid;
+  text-align: center;
+  gap: 3rem;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/570047/pexels-photo-570047.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.section3 {
+  display: grid;
+  text-align: center;
+  gap: 3rem;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/2541310/pexels-photo-2541310.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.section4 {
+  display: grid;
+  text-align: center;
+  gap: 3rem;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.section5 {
+  display: grid;
+  text-align: center;
+  gap: 3rem;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/36405815/pexels-photo-36405815.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.section6 {
+  display: grid;
+  text-align: center;
+  gap: 3rem;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1637436/pexels-photo-1637436.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* Responsive CSS Design */
+
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    background: rgba(163, 243, 230, 0.9);
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links li{
+    color: red;
+  }
+
+  #menuToggle {
+    display: block;
+    color: rgb(10, 230, 238);
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+  }
+
+  .fa-regular {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  #log {
+    display: flex;
+    gap: 2rem;
+  }
+
+  #log-button {
+    margin: auto 0;
+  }
+
+  .menu-toggle:hover {
+    color: brown;
+    cursor: pointer;
+  }
+}
