@@ -209,18 +209,26 @@ button {
     left: 0;
     width: 100%;
     background: rgba(163, 243, 230, 0.9);
+    color: black;
     flex-direction: column;
     align-items: center;
     padding: 1rem 0;
   }
 
-  .nav-links li{
-    color: red;
+  #navLinks {
+    display: none;
+    text-align: center;
+  }
+
+  #navLinks li a {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    color: rgb(133, 25, 25);
   }
 
   #menuToggle {
     display: block;
-    color: rgb(10, 230, 238);
     cursor: pointer;
     text-align: center;
     font-size: large;
@@ -240,8 +248,8 @@ button {
     margin: auto 0;
   }
 
-  .menu-toggle:hover {
-    color: brown;
+  .fa-house:hover {
+    color: rgb(79, 231, 124);
     cursor: pointer;
   }
 }
