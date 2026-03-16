@@ -7,10 +7,6 @@ menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// $(document).ready(function () {
-//   $("#navLinks").hide();
-// });
-
 $(document).ready(function () {
   $("#menuToggle").click(function () {
     $("#navLinks").toggle();
@@ -38,20 +34,21 @@ function showToast() {
 
   Toast.fire({
     icon: "success",
-    title: "Clicked LogIn Button successfully",
+    title: "Hii, Naveen!",
+    text: "'You Have Clicked LogIn Button successfully.....'"
   });
 }
 
 Swal.mixin({
-  title: "Hii, Naveen",
+  title: "Hii, Tinku",
   position: "bottom-start",
-  text: "Hello, How are you Naveen Singh Junglan?",
+  text: "Hello, How are you Tinku Singh Junglan?",
   icon: "success",
   toast: true,
 }).bindClickHandler();
 
 Swal.mixin({
-  title: "The Internet?",
+  title: "Sorry, Tinku",
   position: "bottom-end",
   text: "Connect Your Internet.........",
   icon: "success",
